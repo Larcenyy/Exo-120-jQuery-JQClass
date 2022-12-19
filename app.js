@@ -25,6 +25,14 @@ $('.rect').on('click', function (event){
     $('#one').children().css("background-color", "red")
 })
 
+$('.form').on('click', function (event){
+    $('#three').children().css("background-color", "red")
+    $('.lin1').css("background-color", "red")
+    $('.lin2').css("background-color", "red")
+    $('.lin3').css("background-color", "red")
+    $('.lin4').css("background-color", "red")
+})
+
 // for(let i = 0; i < checkCircle.length; i++){
 //     checkCircle.click(function (){
 //         console.log("test")
