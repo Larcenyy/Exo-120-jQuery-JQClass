@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html body{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    margin: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 2rem;
+    max-width: 60%;
+    background: #d9d9d9;
+    justify-content: space-between;
+}
+div{
+    display: flex;
+    gap: 3rem;
+}
+.rect{
+    height: 8rem;
+    width: 8rem;
+    border: 2px solid red;
+    padding: 1rem;
+}
+.form{
+    transform: rotate(45deg);
+    height: 8rem;
+    width: 8rem;
+    border: 2px solid red;
+    padding: 1rem;
+}
+.circle{
+    border-radius: 100%;
+    padding: 1rem;
+    height: 8rem;
+    width: 8rem;
+    border: 2px solid red;
+    padding: 1rem;
+}
+.circleFull{
+    background: black;
+}
+.rectFull{
+    background: black;
+}
+.formFull{
+    background: black;
+}
